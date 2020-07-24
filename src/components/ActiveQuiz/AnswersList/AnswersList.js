@@ -8,6 +8,7 @@ const AnswersList = props => (
       return <AnswerItem
         key={index}
         answer={answer}
+        userAnswer={props.userAnswers ? props.userAnswers[answer.id] : null}
         onAnswerClick={props.onAnswerClick}/>
     })}
   </ul>
