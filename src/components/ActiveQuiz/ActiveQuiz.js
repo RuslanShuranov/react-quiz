@@ -8,7 +8,7 @@ const ActiveQuiz = props => (
       <span>
         <strong>{props.questionNumber}. </strong>{props.question}
       </span>
-      <small>{props.questionNumber} of {props.quizLength}</small>
+      <small className={classes.Counter}>{props.questionNumber} of {props.quizLength}</small>
     </p>
     <AnswersList
       userAnswers={props.userAnswers}
