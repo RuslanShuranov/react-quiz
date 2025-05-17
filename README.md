@@ -1,68 +1,60 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# React Quiz Application
+A modern, interactive quiz application built with React that allows users to test their knowledge with multiple-choice questions.
+## ✨ Features
+- **Interactive Quiz Experience**: Answer questions with immediate visual feedback
+- **Multiple Choice Questions**: Select from various answer options for each question
+- **Progress Tracking**: See your current position in the quiz journey
+- **Results Summary**: Comprehensive breakdown of your performance after completion
+- **Retry Functionality**: Option to restart the quiz after completion
+- **Responsive Design**: Works seamlessly across desktop and mobile devices
 
-## Available Scripts
+## ️ Technology Stack
+- **Frontend**: React 18.2.0
+- **Styling**: SCSS Modules
+- **Build Tools**: Webpack 5.80.0, Babel
+- **Package Management**: npm
 
-In the project directory, you can run:
+## Getting Started
+1. Clone the repository
+2. Install dependencies:
+``` bash
+npm install
+```
+3. Run the development server:
+``` bash
+npm start
+```
+4. Build for production:
+``` bash
+npm run build
+```
+## Project Structure
+The application follows a component-based architecture:
+- **Components**:
+    - `ActiveQuiz`: Displays the current question and possible answers
+    - `AnswersList`: Renders interactive answer options
+    - `FinishedQuiz`: Shows quiz results and retry option
 
-### `npm start`
+- **Containers**:
+    - `Quiz`: Core container managing quiz state and progression
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Scripts
+- `npm start` - Start development server
+- `npm run build` - Build for production
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Key Dependencies
+- React 18.2.0
+- React DOM 18.2.0
+- Webpack 5.80.0
+- Babel 7.21.8
+- SASS 1.88.0
 
-### `npm test`
+## Future Enhancements
+- Add more quiz categories and questions
+- Implement user authentication to save progress
+- Create an admin interface for quiz creation
+- Add timer functionality for timed quizzes
+- Implement difficulty levels for questions
 
-Launches the test runner in interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
